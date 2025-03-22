@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularApp';
+  imgUrl ="../assets/BL_logo_square_jpg.jpg";
 
   ngOnInit(): void {
     this.title = "Hello from BridgeLabz.";      // it is called after component is initialized, use when dynamic value    
