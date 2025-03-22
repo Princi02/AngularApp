@@ -10,6 +10,8 @@ export class AppComponent {
   imgUrl ="../assets/BL_logo_square_jpg.jpg";
   url = "https://www.bridgelabz.com"; // BridgeLabz Website URL
 
+  userName: string = "";
+
   ngOnInit(): void {
     this.title = "Hello from BridgeLabz.";      // it is called after component is initialized, use when dynamic value    
   }
