@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularApp';
+  message: string = "Hello from BridgeLabz! 🚀"; // Template Expression Variable
 }
