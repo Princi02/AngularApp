@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularApp';
-  message: string = "Hello from BridgeLabz! 🚀"; // Template Expression Variable
+
+  ngOnInit(): void {
+    this.title = "Hello from BridgeLabz.";      // it is called after component is initialized, use when dynamic value    
+  }
+  // message: string = "Hello from BridgeLabz! 🚀"; // Template Expression Variable,  message is initialized when the component is created,    use when static values
 }
